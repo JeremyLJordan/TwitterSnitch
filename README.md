@@ -1,0 +1,2 @@
+# TwitterSnitch
+Twitter Snitch was created in 2015 as a method of monitoring bad actors accounts. The end user adds target Twitter usernames to a text file. They then add the keywords they are looking for to a separate text file. Once the script is started it begins scanning the list of accounts for the keywords. Once a tweet with one of the keywords is seen it sends an email to the user with the keyword and the Tweet for review. The details of the alert are then saved into a database  to avoid duplicate alerts and further review.
